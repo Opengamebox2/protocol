@@ -1,10 +1,18 @@
+/**
+ * Protocol types
+ */
 export const types = {
 	ENTITY_CREATE_REQUEST: 'ENTITY_CREATE_REQUEST',
 	ENTITY_DELETE_REQUEST: 'ENTITY_DELETE_REQUEST',
+	ENTITY_SELECT_REQUEST: 'ENTITY_SELECT_REQUEST',
 	ENTITY_CREATE: 'ENTITY_CREATE',
 	ENTITY_DELETE: 'ENTITY_DELETE',
+	ENTITY_SELECT: 'ENTITY_SELECT',
 };
 
+/**
+ * Protocol channels
+ */
 export const channels = {
 	GAME: 'GAME',
 };
