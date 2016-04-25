@@ -1,6 +1,6 @@
 export default {
-  /** Messages that the server broadcasts to all clients. */
-  broadcast: {
+  /** Events that the server usually broadcasts to all clients. */
+  events: {
     PLAYER_JOIN: 'PLAYER_JOIN',
     PLAYER_LEAVE: 'PLAYER_LEAVE',
     ENTITY_CREATE: 'ENTITY_CREATE',
