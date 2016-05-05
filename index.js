@@ -8,6 +8,7 @@ export default {
     ENTITY_DELETE: 'ENTITY_DELETE',
     ENTITY_SELECT: 'ENTITY_SELECT',
     ENTITY_MOVE: 'ENTITY_MOVE',
+    CHAT_MESSAGE: 'CHAT_MESSAGE',
   },
 
   /** Requests that may be sent to the server. */
@@ -18,6 +19,7 @@ export default {
     ENTITY_DELETE_REQUEST: 'ENTITY_DELETE_REQUEST',
     ENTITY_SELECT_REQUEST: 'ENTITY_SELECT_REQUEST',
     ENTITY_MOVE_REQUEST: 'ENTITY_MOVE_REQUEST',
+    CHAT_MESSAGE_REQUEST: 'CHAT_MESSAGE_REQUEST',
   },
 
   /** Reply messages to requests. */
